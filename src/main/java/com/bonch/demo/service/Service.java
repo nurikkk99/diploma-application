@@ -4,7 +4,7 @@ package com.bonch.demo.service;
 public class Service {
 
     public String processString(String string) throws InterruptedException {
-        Thread.sleep(200);
+        Thread.sleep(700);
         System.out.println(string);
         return "returned";
     }
